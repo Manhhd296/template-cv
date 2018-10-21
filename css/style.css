@@ -1,0 +1,231 @@
+* {
+	/* font-family: "Times New Roman", Times, serif; */
+	/* font-family: Arial , Helvetica, sans-serif; */
+}
+/* header */
+div .content-left{
+	margin-top: 200px;
+}
+
+div .header-mt {
+	margin-top: 70px;
+}
+
+/* ---------- SOCIAL NETWORK ---------- */
+a[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+
+.social {
+	position: relative;
+	height: 2em;
+	width: 4em;
+}
+
+.social li {
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	margin: -2em;
+	position: absolute;
+
+	transition: transform .5s;
+
+	transform: rotate(45deg);
+	text-align: center;
+	width: 2em;
+}
+
+.social a {
+	color: #fffdf0;
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+
+	transform: rotate(-45deg);
+	width: 2em;	
+}
+
+.social li:hover {
+
+	transform: rotate(405deg);
+}
+
+.facebook {
+	background: #155b9d;
+	top: 97%;
+	left: 58%;
+}
+
+.twitter {
+	background: #1a9ec4;
+	top: 97%;
+	left: 129%;
+}
+
+.dribbble {
+	background: #d05f8f;
+	top: 97%;
+	left: 199%;
+}
+
+.behance {
+	background: #3f7aa3;
+	top: 97%;
+	left: 270%;
+}
+
+.linked-in {
+	background: #157f9d;
+	top: 97%;
+	left: 340%;
+
+}
+
+/* section-a */
+div .section-a-pd {
+	padding: 70px 0px;
+}
+/* section-b */
+div .center-section-b {
+	text-align: center;
+}
+div .section-b-pd {
+	padding: 70px 0px;
+}
+
+/* section-c */
+div .section-c-pd {
+	padding: 70px 0px;
+}
+div .progress {
+	height: 7px;
+	border: none;
+}
+
+/* color-text-nav */
+.navbar-nav li a {
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+	color: #2e67c3;
+	background: #f4f4f4;
+}
+
+/* section-d */
+div .section-d-pd {
+	padding-top: 70px;
+}
+
+/* section-d2 */
+div .section-d2-pd {
+	padding: 20px 0px 60px 0px;
+}
+
+/* section-e */
+div .center-section-e, div .center-section-e1 {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+div .center-section-e {
+	padding-top: 80px;
+}
+
+div .center-section-e1 {
+	padding-bottom: 80px;
+}
+
+div .section-e-pd {
+	padding: 40px 0px;
+}
+
+/* section-f */
+div .section-f-pd {
+	padding: 50px 0px 0px 0px;
+}
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 1px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot-blue {
+	cursor: pointer;
+  height: 7px;
+  width: 23px;
+  background-color: #4cb4d4;
+  border-radius: 1px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.active, .dot-blue:hover {
+  background-color: #3e7bc6;
+}
+
+/* section-g */
+div .section-g-pd {
+	padding: 40px 0px;
+}
+
+
+
+/* footer */
+div .background-map {
+	position: relative;
+	height: 195px;
+	width: 100vw;
+	margin-left: -32px;
+}
+
+div .background-white {
+	position: absolute;
+	background-color: #fff;
+	padding: 30px 30px;
+	width: 80vw;
+
+}
+
+div .footer-pd {
+	padding-top: 170px;
+
+}
+
+
+/* input focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {   
+  border: 3px solid #ee47aa;
+  box-shadow: 1px 1px 1px rgba(68,68,68,0.6);
+  outline: 3px;
+}
+
+textarea#comment:focus {
+    border: 3px solid #ee47aa;
+	box-shadow: 1px 1px 1px rgba(68,68,68,0.6);
+	outline: 3px;
+}
+
+/* go top btn */
+#goTop {
+bottom: -3410px;
+cursor: pointer;
+position: absolute;
+right: 50vw;
+z-index: 1000;
+}
+
