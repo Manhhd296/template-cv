@@ -27,7 +27,7 @@ Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Recentorder`
 
 **Limit:** Enter the number limit products
 
-**Speed** Enter the product swap time(ms)
+**Speed:** Enter the product swap time(ms)
 ### This Is Result In Frontend
  ![result-img](https://github.com/magepow/magento2-recentorder/blob/master/media/recent_order.jpg)
  [![Latest Stable Version](https://poser.pugx.org/magepow/recentorder/v/stable)](https://packagist.org/packages/magepow/recentorder)
