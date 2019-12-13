@@ -15,11 +15,16 @@ Run the following command in Magento 2 root folder:
 Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Recentorder`
 ![config-module-img](https://github.com/magepow/magento2-recentorder/blob/master/media/recent_order1.jpg)
 
-Select `Yes` to enable module.
+Select `Yes` to enable module
+
 Select `Yes` to use fake info order
+
 Enter the fake product ids separated by commas
+
 Enter the fake order shipping address
+
 Enter the number limit products
+
 Enter the product swap time(ms)
 ### This Is Result In Frontend
  ![result-img](https://github.com/magepow/magento2-recentorder/blob/master/media/recent_order.jpg)
