@@ -1,36 +1,30 @@
-# Magento 2 Extention Categories
-**Categories Magento extension** (Magepow Categories Extension) for Magento allows you to have subcategories in the form of a grid or list on category pages, home page or optionally any other page via XML layout updates or CMS markup tags. Additionally, there are more than several options for customization. The subcategories block is Responsive Web Design (RWD) ready. It will recalculate itself based on the parent.
-## 1. How to install Magento 2 Categories
-### ✓ Install Magepow Categories via composer (recommend)
+# Magento 2 Extention Recentorder
+**Recentorder Magento extension** (Magepow Recentorder Extension) for Magento show beautiful recent sales popups to notify visitors of recently bought items. When you have very small amount of order, you can show fake order instead to attract customers.
+## 1. How to install Magento 2 Recentorder
+### ✓ Install Magepow Recentorder via composer (recommend)
 Run the following command in Magento 2 root folder:
 
-`composer require magepow/categories`
+`composer require magepow/recentorder`
 
 `php bin/magento setup:upgrade`
 
-`php bin/magento setup:static-content:deploy`
-## 2. Magepow Categories user guide
-**Magepow Categories** Allow customer access the categories quickly and conveniently, stimulating users to click on the categories because of the beautiful interface.
+`php bin/magento setup:static-content:deploy -f`
+## 2. Magepow Recentorder user guide
 ### General Configuration
-#### Enable Magepow Categories
-Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Categories`
-![enable-module-img](https://github.com/magepow/stickycart/blob/master/media/enable.PNG)
+#### Setting Magepow Recentorder
+Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Recentorder`
+![config-module-img](https://github.com/magepow/magento2-recentorder/blob/master/media/recent_order1.jpg)
 
 Select `Yes` to enable module.
-#### Setting Magepow Categories
-Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Categories`
-![config-module-img](https://github.com/magepow/magento2-categories/blob/master/media/cat1.PNG)
- * Two layouts available (Grid or List).
- * Ability to sort subcategories by "Name", "Page Title", "Position", and "Created Date".
- * Ability to show subcategories heading or not and to type in the heading text.
- * Ability to show or not category description.
- * Select categories that do not display subcategories.
- ![config-module-img](https://github.com/magepow/magento2-categories/blob/master/media/Cat2.PNG)
- The home page also has the same settings as the category page, except that the home page can choose the display categories instead of excluding the display category.
- * Select the categories displayed on the home page.
+Select `Yes` to use fake info order
+Enter the fake product ids separated by commas
+Enter the fake order shipping address
+Enter the number limit products
+Enter the product swap time(ms)
 ### This Is Result In Frontend
- ![config-module-img](https://github.com/magepow/magento2-categories/blob/master/media/cat3.PNG)
- ![config-module-img](https://github.com/magepow/magento2-categories/blob/master/media/Cat4.PNG)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)]()
+ ![result-img](https://github.com/magepow/magento2-recentorder/blob/master/media/recent_order.jpg)
+ [![Latest Stable Version](https://poser.pugx.org/magepow/recentorder/v/stable)](https://packagist.org/packages/magepow/recentorder)
+[![Total Downloads](https://poser.pugx.org/magepow/recentorder/downloads)](https://packagist.org/packages/magepow/recentorder)
+
 
 
